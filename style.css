@@ -1,0 +1,103 @@
+body {
+	height: 100%;
+	font-family: "Lucida Sans Unicode";
+}
+html, body, ul {
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after {
+	content: " ";
+	clear: both;
+	display: table;
+}
+.main {
+	width: 1100px;
+	margin: 0 auto -60px;
+	min-height: 100%;
+}
+footer {
+	height: 60px;
+	width: 930px;
+	margin: 0 auto;
+	background: #F1F3F4;
+	border-radius: 10px 10px 0 0;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+.all {
+	background: #ffffff linear-gradient(to bottom, #A2A9B0 0, #ffffff 360px);
+	padding-bottom: 67px;
+}
+
+header {
+	background: linear-gradient(to bottom, #31424C, #354149);
+	height: 133px;
+	box-sizing: border-box;
+
+}
+.search {
+	background:  url("img/search-bg.png") left bottom;
+	padding-left: 755px;
+	color: #5A676E;
+	font-size: 11px;
+}
+.search input {
+	outline: none;
+}
+.search input[type="search"] {
+	width: 152px;
+	border-radius: 25px;
+	height: 20px;
+	margin: 4px;
+	background: transparent;
+	border: 1px solid #354854;
+	border-top: none;
+}
+.search input[type="submit"] {
+	background: transparent;
+	border: none;
+	color: #5A676E;
+	text-transform: uppercase;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+.top-wrap, .slides, .caption, section {
+	width: 924px;
+	padding: 0 88px;
+}
+.top-wrap {
+	margin-top: 17px;
+}
+.logo {
+	float: left;
+}
+div.logo a {
+	font-size: 30px;
+	color: #ffffff;
+}
+.logo a span {
+	font-size: 11px;
+	color: #69757C;
+}
+.sub-menu {
+	float: right;
+	
+
+}
+.sub-menu ul {
+	vertical-align: bottom;
+}
+.sub-menu ul li{
+	display: inline-block;
+}
+.sub-menu ul li a{
+	display: block;
+	color: #D0D6DA;
+	font-size: 12px;
+}
