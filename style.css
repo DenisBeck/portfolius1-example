@@ -73,7 +73,7 @@ header {
 	margin: 0;
 	padding: 0;
 }
-.slides-area, .caption, section {
+.color-area, .caption-size, section {
 	width: 924px;
 	margin: 0 auto;
 }
@@ -147,19 +147,76 @@ nav li a:hover, nav li a.active {
 	text-shadow: 1px -1px #40AE74;
 }
 
-.slides-area {
+.color-area {
 	box-sizing: border-box;
-	height: 256px;
 	background: #35A96C;
 	padding: 6px;
 	border-radius: 0 0 10px 10px;
 	position: relative;
+}
+.portfolio-area {
+	height: 95px;
+}
+.slides-area {
+	height: 256px;
 }
 .slides {
 	background: linear-gradient(to bottom, #48B46D, #2E933E);
 	color: #ffffff;
 	border-radius: 8px;
 	height: 100%;
+}
+.theme {
+	margin-top: 4px;
+	border-radius: 10px;
+	background: linear-gradient(to bottom, #DBDEE1, #ffffff 258px);
+}
+.wrap-padding {
+	padding-top: 30px;
+}
+.theme article {
+	padding: 30px 555px 86px 25px;
+}
+.theme article:nth-of-type(1) {
+	background: url("img/article1.png") no-repeat;
+}
+.theme article:nth-of-type(2) {
+	background: url("img/article2.png") no-repeat;
+}
+.theme h2 {
+	margin: 0;
+	color: #434D53;
+	font-size: 30px;
+}
+.theme h3 {
+	color: #434D53;
+	font-size: 18px;
+}
+.theme p {
+	font-size: 12px;
+	color: #999DA1;
+}
+.theme article a {
+	display: inline-block;
+	border-radius: 50px;
+	color: #ffffff;
+	padding: 7px 15px;
+	text-transform: uppercase;
+	font-size: 12px;
+	background: linear-gradient(to top, #44B468, #C6E4CD);
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #269D3D;
+	box-shadow: 0px 0px 0px 3px #E6E7EA;
+}
+.theme .article {
+	padding: 0 25px;
+	float: left;
+	width: 540px;
+	border-right: 1px solid #D7D8DA;
+}
+.theme .sidebar {
+	float: right;
+	width: 280px;
 }
 .left, .right {
 	position: absolute;
@@ -175,6 +232,16 @@ nav li a:hover, nav li a.active {
 .right {
 	right: -17px;
 	background-position: -36px 0;
+}
+.portfolio-area .slides p {
+	font-size: 43px;
+	color: #ffffff;
+	padding-left: 25px;
+	line-height: 84px;
+	margin: 0;
+}
+.slides p article {
+	background: url("img/article1.png") no-repeat;
 }
 
 .caption {
@@ -199,13 +266,13 @@ section .section-part {
 	padding: 35px;
 }
 
-section h2 {
+section h2, .sidebar p {
 	font-size: 24px;
 	color: #4A5B67;
 	line-height: 28px;
 	margin: 0;
 }
-section h2+span {
+section h2+span, .sidebar p+span {
 	font-size: 14px;
 	color: #3CAB71;
 	display: block;
